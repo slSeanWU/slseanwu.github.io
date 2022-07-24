@@ -3,14 +3,13 @@
  ******************************************************************************/
 
 // Typography
-@import url(https://fonts.googleapis.com/css?family=Nunito:400italic,700italic,400,700);
 
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
 }
 
 h1, h2, h3 {
-  font-family: Nunito;
+  font-family: 'Nunito', sans-serif;
 }
 
 hr {
@@ -170,14 +169,14 @@ blockquote {
   }
   .navbar-brand {
     color: var(--global-text-color);
-    font-family: Nunito;
+    font-family: 'Nunito', sans-serif;
   }
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
     &:hover {
       color: var(--global-hover-color);
     }
-    font-family: Nunito;
+    font-family: 'Nunito', sans-serif;
   }
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
@@ -186,7 +185,7 @@ blockquote {
       &:hover {
         color: var(--global-hover-color);
       }
-      font-family: Nunito;
+      font-family: 'Nunito', sans-serif;
   }
   .navbar-brand.social {
     padding-bottom: 0;
