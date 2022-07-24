@@ -3,9 +3,14 @@
  ******************************************************************************/
 
 // Typography
+@import url(http://fonts.googleapis.com/css?family=Nunito:400italic,700italic,400,700);
 
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
+}
+
+h1, h2, h3 {
+  font-family: Nunito;
 }
 
 hr {
@@ -165,12 +170,14 @@ blockquote {
   }
   .navbar-brand {
     color: var(--global-text-color);
+    font-family: Nunito;
   }
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
     &:hover {
       color: var(--global-hover-color);
     }
+    font-family: Nunito;
   }
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
@@ -179,6 +186,7 @@ blockquote {
       &:hover {
         color: var(--global-hover-color);
       }
+      font-family: Nunito;
   }
   .navbar-brand.social {
     padding-bottom: 0;
@@ -248,7 +256,7 @@ blockquote {
 .social {
   text-align: center;
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2.5rem;
     a {
       i::before {
         color: var(--global-text-color);
@@ -259,6 +267,8 @@ blockquote {
           color: var(--global-theme-color);
         }
       }
+      padding-left: 0.3rem;
+      padding-right: 0.3rem;
     }
   }
   .contact-note {
