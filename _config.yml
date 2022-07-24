@@ -211,7 +211,7 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 scholar:
 
   last_name: Wu
-  first_name: [Shih-Lun]
+  first_name: [Shih-Lun, S.-L., S.]
 
   style: apa
   locale: en

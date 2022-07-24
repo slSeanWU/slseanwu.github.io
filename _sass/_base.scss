@@ -317,6 +317,21 @@ footer.sticky-bottom {
         color: var(--global-card-bg-color) !important;
         background-color: var(--global-theme-color) !important;
       }
+
+      .badge_music {
+        color: var(--global-card-bg-color) !important;
+        background-color: var(--music-theme-color) !important;
+      }
+
+      .badge_vision {
+        color: var(--global-card-bg-color) !important;
+        background-color: var(--vision-theme-color) !important;
+      }
+
+      .badge_verif {
+        color: var(--global-card-bg-color) !important;
+        background-color: var(--verif-theme-color) !important;
+      }
     }
   }
 }
@@ -459,7 +474,7 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 2rem;
+  margin-top: 3rem;
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
@@ -473,11 +488,18 @@ footer.sticky-bottom {
       font-size: 1.5rem;
     }
   }
+  h2.publ-cat {
+    margin-bottom: 0.7rem;
+    span {
+      font-size: 1.3rem;
+    }
+    text-align: center;
+  }
   h2.year {
     color: var(--global-divider-color);
     border-top: 1px solid var(--global-divider-color);
-    padding-top: 1rem;
-    margin-top: 2rem;
+    padding-top: 0.8rem;
+    margin-top: 1.5rem;
     margin-bottom: -2rem;
     text-align: right;
   }
@@ -499,6 +521,54 @@ footer.sticky-bottom {
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
+          padding-left: 1rem;
+          padding-right: 1rem;
+          a {
+            color: white;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+        abbr.badge_music {
+          display: inline-block;
+          background-color: var(--music-theme-color);
+          padding-left: 1rem;
+          padding-right: 1rem;
+          a {
+            color: white;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+        abbr.badge_vision {
+          display: inline-block;
+          background-color: var(--vision-theme-color);
+          padding-left: 1rem;
+          padding-right: 1rem;
+          a {
+            color: white;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+        abbr.badge_verif {
+          display: inline-block;
+          background-color: var(--verif-theme-color);
+          padding-left: 1rem;
+          padding-right: 1rem;
+          a {
+            color: white;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+        abbr.badge_ml {
+          display: inline-block;
+          background-color: var(--ml-theme-color);
           padding-left: 1rem;
           padding-right: 1rem;
           a {

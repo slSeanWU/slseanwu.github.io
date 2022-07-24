@@ -1,0 +1,70 @@
+@article{shih2022theme,
+  abbr={TMM},
+  field={Music},
+  field_badge_class={badge_music},
+  abstract={Attention-based Transformer models have been increasingly employed for automatic music generation. To condition the generation process of such a model with a user-specified sequence, a popular approach is to take that conditioning sequence as a priming sequence and ask a Transformer decoder to generate a continuation. However, this prompt-based conditioning cannot guarantee that the conditioning sequence would develop or even simply repeat itself in the generated continuation. In this paper, we propose an alternative conditioning approach, called theme-based conditioning, that explicitly trains the Transformer to treat the conditioning sequence as a thematic material that has to manifest itself multiple times in its generation result. This is achieved with two main technical contributions. First, we propose a deep learning-based approach that uses contrastive representation learning and clustering to automatically retrieve thematic materials from music pieces in the training data. Second, we propose a novel gated parallel attention module to be used in a sequence-to-sequence (seq2seq) encoder/decoder architecture to more effectively account for a given conditioning thematic material in the generation process of the Transformer decoder. We report on objective and subjective evaluations of variants of the proposed Theme Transformer and the conventional prompt-based baseline, showing that our best model can generate, to some extent, polyphonic pop piano music with repetition and plausible variations of a given condition.},
+  title={Theme {T}ransformer: Symbolic music generation with theme-conditioned {T}ransformer},
+  author={Shih, Y.-J. and Wu, S.-L. and Zalkow, F. and Muller, M. and Yang, Y.-H.},
+  journal={IEEE Transactions on Multimedia},
+  year={2022},
+  pdf={https://arxiv.org/pdf/2111.04093.pdf},
+  code={https://github.com/atosystem/ThemeTransformer},
+  website={https://atosystem.github.io/ThemeTransformer/}
+}
+
+@inproceedings{liutkus2021relative,
+  abbr={ICML},
+  field={ML},
+  field_badge_class={badge_ml},
+  abstract={Recent advances in Transformer models allow for unprecedented sequence lengths, due to linear space and time complexity. In the meantime, relative positional encoding (RPE) was proposed as beneficial for classical Transformers and consists in exploiting lags instead of absolute positions for inference. Still, RPE is not available for the recent linear-variants of the Transformer, because it requires the explicit computation of the attention matrix, which is precisely what is avoided by such methods. In this paper, we bridge this gap and present Stochastic Positional Encoding as a way to generate PE that can be used as a replacement to the classical additive (sinusoidal) PE and provably behaves like RPE. The main theoretical contribution is to make a connection between positional encoding and cross-covariance structures of correlated Gaussian processes. We illustrate the performance of our approach on the Long-Range Arena benchmark and on music generation.},
+  title={Relative positional encoding for {T}ransformers with linear complexity},
+  author={Liutkus*, A. and C{\i}́fka*, O. and Wu, S.-L. and Simsekli, U. and Yang, Y.-H. and Richard, G.},
+  booktitle={International Conference on Machine Learning (long talk)},
+  year={2021},
+  pdf={https://arxiv.org/pdf/2105.08399.pdf},
+  code={https://github.com/aliutkus/spe},
+  website={https://cifkao.github.io/spe/},
+  talk={https://slideslive.com/38958574/relative-positional-encoding-for-transformers-with-linear-complexity}
+}
+
+@inproceedings{wu2020deep,
+  abbr={ICMLA},
+  field={Vision},
+  field_badge_class={badge_vision},
+  abstract={The quality grading of mangoes is a crucial task for mango growers as it vastly affects their profit. However, until today, this process still relies on laborious efforts of humans, who are prone to fatigue and errors. To remedy this, the paper approaches the grading task with various convolutional neural networks (CNN), a tried-and-tested deep learning technology in computer vision. The models involved include Mask R-CNN (for background removal), the numerous past winners of the ImageNet challenge, namely AlexNet, VGGs, and ResNets; and, a family of self-defined convolutional autoencoder-classifiers (ConvAE-Clfs) inspired by the claimed benefit of multi-task learning in classification tasks. Transfer learning is also adopted in this work via utilizing the ImageNet pretrained weights. Besides elaborating on the preprocessing techniques, training details, and the resulting performance, we go one step further to provide explainable insights into the model's working with the help of saliency maps and principal component analysis (PCA). These insights provide a succinct, meaningful glimpse into the intricate deep learning black box, fostering trust, and can also be presented to humans in real-world use cases for reviewing the grading results.},
+  title={Deep learning for automatic quality grading of mangoes: Methods and insights},
+  author={Wu, Shih-Lun and Tung, Hsiao-Yen and Hsu, Yu-Lun},
+  booktitle={International Conference on Machine Learning and Applications},
+  year={2020},
+  pdf={https://arxiv.org/pdf/2011.11378.pdf},
+  talk={https://drive.google.com/file/d/1qgiSbH944uucfCnGZq2o4oTACS0j3KrE/view?usp=sharing}
+}
+
+
+@inproceedings{wu2020jazz,
+  abbr={ISMIR},
+  field={Music},
+  field_badge_class={badge_music},
+  abstract={This paper presents the Jazz Transformer, a generative model that utilizes a neural sequence model called the Transformer-XL for modeling lead sheets of Jazz music. Moreover, the model endeavors to incorporate structural events present in the Weimar Jazz Database (WJazzD) for inducing structures in the generated music. While we are able to reduce the training loss to a low value, our listening test suggests however a clear gap between the average ratings of the generated and real compositions. We therefore go one step further and conduct a series of computational analysis of the generated compositions from different perspectives. This includes analyzing the statistics of the pitch class, grooving, and chord progression, assessing the structureness of the music with the help of the fitness scape plot, and evaluating the model's understanding of Jazz music through a MIREX-like continuation prediction task. Our work presents in an analytical manner why machine-generated music to date still falls short of the artwork of humanity, and sets some goals for future work on automatic composition to further pursue.},
+  title={The {J}azz {T}ransformer on the front line: Exploring the shortcomings of {AI}-composed music through quantitative measures},
+  author={Wu, Shih-Lun and Yang, Yi-Hsuan},
+  booktitle={International Society for Music Information Retrieval Conference},
+  year={2020},
+  pdf={https://arxiv.org/pdf/2008.01307.pdf},
+  code={https://github.com/slSeanWU/jazz_transformer},
+  supp={https://drive.google.com/drive/folders/1-09SoxumYPdYetsUWHIHSugK99E2tNYD?usp=sharing},
+  talk={https://youtu.be/lrX2va_S8DU}
+}
+
+@inproceedings{wu2020efficient,
+  abbr={RV},
+  field={Verification},
+  field_badge_class={badge_verif},
+  abstract={A weakly-hard fault model can be captured by an (m, k) constraint, where 0≤m≤k, meaning that there are at most m bad events (faults) among any k consecutive events. In this paper, we use a weakly-hard fault model to constrain the occurrences of faults in system inputs. We develop approaches to verify properties for all possible values of (m, k), where k is smaller than or equal to a given K, in an exact and efficient manner. By verifying all possible values of (m, k), we define weakly-hard requirements for the system environment and design a runtime monitor based on counting the number of faults in system inputs. If the system environment satisfies the weakly-hard requirements, the satisfaction of desired properties is guaranteed; otherwise, the runtime monitor can notify the system to switch to a safe mode. Experimental results with a discrete second-order controller demonstrate the efficiency of the proposed approaches.},
+  title={Efficient system verification with multiple weakly-hard constraints for runtime monitoring},
+  author={Wu*, S.-L. and Bai*, C.-Y. and Chang, K.-C. and Hsieh, Y.-T. and Huang, C. and Lin, C.-W. and Kang, E. and Zhu, Q.},
+  booktitle={International Conference on Runtime Verification},
+  year={2020},
+  html={https://link.springer.com/chapter/10.1007/978-3-030-60508-7_28},
+  pdf={https://eskang.github.io/assets/papers/rv20b.pdf}
+}
