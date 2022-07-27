@@ -1,26 +1,25 @@
 ---
 layout: barebone
 title: Projs & more
-permalink: /projects/
+permalink: /projects_or/
 description: A growing collection of your cool projects.
-nav: true
+nav: false
 nav_order: 2
 display_categories:
 horizontal: false
-cv_pdf: CV_Shih-Lun_Wu_Jul22.pdf
 ---
 
 <!-- pages/projects.md -->
 <article>
-
-<h1 class="post-title">Projects</h1>
-<p class="post-description">
-other cool stuff built together with my colleagues <br>
-<b>note</b>: page best viewed in <b>landscape (horizontal)</b> mode
-</p>
 <div class="projects">
-<!-- Display projects without categories -->
-  {%- assign sorted_projects = site.projects_work | sort: "importance" -%}
+
+
+<! –– {%- if site.enable_project_categories and page.display_categories %}
+  <!-- Display categorized projects -->
+  {%- for category in page.display_categories %}
+  <h2 class="category">{{ category }}</h2>
+  {%- assign categorized_projects = site.projects | where: "category", category -%}
+  {%- assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
@@ -37,13 +36,10 @@ other cool stuff built together with my colleagues <br>
     {%- endfor %}
   </div>
   {%- endif -%}
-</div>
+  {% endfor %}
 
-<h1 class="post-title">Leisure</h1>
-<p class="post-description">
-travel / hiking / dessert baking🍰 / table tennis🏓 / classical music (piano🎹 & viola🎻)
-</p>
-<div class="projects">
+{%- else -%} ––>
+
 <!-- Display projects without categories -->
   {%- assign sorted_projects = site.projects_leisure | sort: "importance" -%}
   <!-- Generate cards for each project -->
@@ -62,8 +58,10 @@ travel / hiking / dessert baking🍰 / table tennis🏓 / classical music (piano
     {%- endfor %}
   </div>
   {%- endif -%}
-  <div class="img-slides">
-  {% include image_slides.html %}
-  </div>
+{%- endif -%}
 </div>
 </article>
+
+<div class="img-slides">
+  {% include image_slides.html %}
+</div>
