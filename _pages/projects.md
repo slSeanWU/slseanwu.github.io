@@ -15,8 +15,7 @@ cv_pdf: CV_Shih-Lun_Wu_Jul22.pdf
 
 <h1 class="post-title">Projects</h1>
 <p class="post-description">
-other cool stuff built together with my colleagues <br>
-<b>note</b>: page best viewed in <b>landscape (horizontal)</b> mode
+other cool stuff built together with my colleagues
 </p>
 <div class="projects">
 <!-- Display projects without categories -->
