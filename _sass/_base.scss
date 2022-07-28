@@ -281,12 +281,12 @@ blockquote {
   box-shadow: 0px 2px 8px rgba($color: #222222, $alpha: 0.5);
   background-color: rgba($color: #747482, $alpha: 0.8);
   .carousel-inner {
-    min-width: 100%;
-    max-width: 100%;
     border-radius: 5px;
-    .carousel-item {
-      min-width: 100%;
-      max-width: 100%;
+    .carousel-item  img {
+      border-radius: 5px !important;
+      min-width: 100% !important;
+      max-width: 100% !important;
+      object-fit: contain;
     }
   }
 }
