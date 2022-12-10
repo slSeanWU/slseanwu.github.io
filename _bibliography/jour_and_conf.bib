@@ -1,3 +1,17 @@
+@article{wu2022musemorphose,
+  abbr={TASLP},
+  field={Music},
+  field_badge_class={badge_music},
+  abstract={Transformers and variational autoencoders (VAE) have been extensively employed for symbolic (e.g., MIDI) domain music generation. While the former boast an impressive capability in modeling long sequences, the latter allow users to willingly exert control over different parts (e.g., bars) of the music to be generated. In this paper, we are interested in bringing the two together to construct a single model that exhibits both strengths. The task is split into two steps. First, we equip Transformer decoders with the ability to accept segment-level, time-varying conditions during sequence generation. Subsequently, we combine the developed and tested in-attention decoder with a Transformer encoder, and train the resulting MuseMorphose model with the VAE objective to achieve style transfer of long musical pieces, in which users can specify musical attributes including rhythmic intensity and polyphony (i.e., harmonic fullness) they desire, down to the bar level. Experiments show that MuseMorphose outperforms recurrent neural network (RNN) based baselines on numerous widely-used metrics for style transfer tasks.},
+  title={{MuseMorphose}: Full-song and fine-grained music style transfer with one {Transformer VAE}},
+  author={Wu, Shih-Lun and Yang, Yi-Hsuan},
+  journal={IEEE/ACM Transactions on Audio, Speech, & Language Processing (TASLP)},
+  year={2022},
+  pdf={https://arxiv.org/pdf/2105.04090.pdf},
+  website={https://slseanwu.github.io/site-musemorphose/},
+  code={https://github.com/YatingMusic/MuseMorphose}
+}
+
 @article{shih2022theme,
   abbr={TMM},
   field={Music},
