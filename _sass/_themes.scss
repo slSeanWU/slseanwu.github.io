@@ -15,6 +15,7 @@
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0,0,0,.2);
   --global-card-bg-color: #{$white-color};
+  --multimodal-theme-color: #{$violet-color};
   --music-theme-color: #{$purple-color};
   --vision-theme-color: #{$cyan-color};
   --verif-theme-color: #{$orange-color};
@@ -44,6 +45,7 @@ html[data-theme='dark'] {
   --global-divider-color: #424246;
   --global-card-bg-color: #{$grey-900};
   --music-theme-color: #{$purple-color};
+  --multimodal-theme-color: #{$violet-color};
   --vision-theme-color: #{$cyan-color};
   --verif-theme-color: #{$orange-color};
   --ml-theme-color: #{$red-color-dark};

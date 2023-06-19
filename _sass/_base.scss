@@ -333,6 +333,11 @@ footer.sticky-bottom {
         background-color: var(--global-theme-color) !important;
       }
 
+      .badge_multimodal {
+        color: var(--global-card-bg-color) !important;
+        background-color: var(--multimodal-theme-color) !important;
+      }
+
       .badge_music {
         color: var(--global-card-bg-color) !important;
         background-color: var(--music-theme-color) !important;
