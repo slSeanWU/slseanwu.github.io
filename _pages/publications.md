@@ -6,7 +6,7 @@ description: <b>*</b> denotes equal contribution
 years_preprint: []
 years_theses: [2021]
 years: [2023, 2022, 2021, 2020]
-cv_pdf: CV_Shih-Lun_Wu_Jun23.pdf
+cv_pdf: CV_Shih-Lun_Wu_Oct23.pdf
 nav: true
 nav_order: 1
 ---
