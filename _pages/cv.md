@@ -4,5 +4,5 @@ permalink: /cv/
 title: vitae
 nav: true
 nav_order: 3
-cv_pdf: CV_Shih-Lun_Wu_Oct23.pdf
+cv_pdf: CV_Shih-Lun_Wu_Nov23.pdf
 ---
