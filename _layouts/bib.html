@@ -210,6 +210,9 @@
           {%- if entry.talk %}
             <a href="{{ entry.talk }}" class="btn btn-sm z-depth-0" role="button">Talk</a>
           {%- endif %}
+          {%- if entry.tldr %}
+            <a href="{{ entry.tldr }}" class="btn btn-sm z-depth-0" role="button">TL;DR</a>
+          {%- endif %}
           </div>
 
           {% if entry.abstract -%}
