@@ -16,7 +16,9 @@ social: true  # includes social icons at the bottom of the page
 education: false
 ---
 
-Hello! I'm Shih-Lun. I'm studying towards [M.Sc. of Language Technologies](https://lti.cs.cmu.edu/mlt/) at CMU's [Language Technologies Institute](https://www.lti.cs.cmu.edu/), [School of Computer Science](https://www.cs.cmu.edu/), where I'm fortunate to be advised by Prof. [Shinji Watanabe](https://sites.google.com/view/shinjiwatanabe) and Prof. [Chris Donahue](https://chrisdonahue.com/). Currently, I'm working on <b>Controllable Music Generation</b>, <b>Audio Captioning</b>, and <b>Spoken Language Understanding</b>. I also hold a research scientist intern position at the Audio AI Lab of [Adobe Research](https://research.adobe.com/), where I'm mentored by Dr. [Nick Bryan](https://ccrma.stanford.edu/~njb/).
+<b>NEWS (Nov. 2023): I'm applying to CS/AI PhD programs starting Fall 2024 !!</b>
+
+Hello! I'm Shih-Lun. I'm studying towards [M.Sc. of Language Technologies](https://lti.cs.cmu.edu/mlt/) at CMU's [Language Technologies Institute](https://www.lti.cs.cmu.edu/), [School of Computer Science](https://www.cs.cmu.edu/), where I'm fortunate to be advised by Prof. [Shinji Watanabe](https://sites.google.com/view/shinjiwatanabe) and Prof. [Chris Donahue](https://chrisdonahue.com/). Currently, I'm working on <b>Controllable Music Generation</b>, <b>Audio Captioning</b>, and <b>Spoken Language Understanding</b>. I was a research scientist intern at the Audio AI Lab of [Adobe Research](https://research.adobe.com/) for Summer 2023 (mentor: Dr. [Nick Bryan](https://ccrma.stanford.edu/~njb/)), where we built the [Music ControlNet](https://musiccontrolnet.github.io/web/).
 
 Prior to joining CMU, I received my B.Sc. degree (in Computer Science) from [National Taiwan University](https://www.ntu.edu.tw/english). Also, I've been with two vibrant Taiwanese AI R&D teams: [Asus AICS Center](https://aics.asus.com/home/), and [Taiwan AI Labs](https://ailabs.tw/), working as a software dev intern at first, and later as a research engineer.
 
