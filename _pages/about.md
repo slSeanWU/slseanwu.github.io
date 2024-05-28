@@ -9,16 +9,18 @@ profile:
   image: shihlun.JPG
   image_cicular: false # crops the image to make it circular
 
-cv_pdf: CV_Shih-Lun_Wu_Dec23.pdf
+cv_pdf: CV_Shih-Lun_Wu_May24.pdf
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 education: false
 ---
 
-<b>NEWS (Nov '23): I'm applying to CS/AI PhD programs starting Fall 2024 !!</b>
+<b>
+NEWS (May '24): I will join MIT EECS as a PhD student in Fall 2024, where I will be advised by Prof. [Anna Huang](https://czhuang.github.io).
+</b>
 
-Hello! I'm Shih-Lun. I'm studying towards [M.Sc. of Language Technologies](https://lti.cs.cmu.edu/mlt/) at CMU's [Language Technologies Institute](https://www.lti.cs.cmu.edu/), [School of Computer Science](https://www.cs.cmu.edu/), where I'm fortunate to be advised by Prof. [Shinji Watanabe](https://sites.google.com/view/shinjiwatanabe) and Prof. [Chris Donahue](https://chrisdonahue.com/). Currently, I'm working on <b>Controllable Music Generation</b>, <b>Audio Captioning</b>, and <b>Spoken Language Understanding</b>. I was a research scientist intern at the Audio AI Lab of [Adobe Research](https://research.adobe.com/) for Summer 2023 (mentor: Dr. [Nick Bryan](https://ccrma.stanford.edu/~njb/)), where we built the [Music ControlNet](https://musiccontrolnet.github.io/web/).
+Hello! I'm Shih-Lun. I recently graduated with a [M.Sc. in Language Technologies](https://lti.cs.cmu.edu/mlt/) from CMU's [Language Technologies Institute](https://www.lti.cs.cmu.edu/), [School of Computer Science](https://www.cs.cmu.edu/), where I was fortunate to be advised by Prof. [Shinji Watanabe](https://sites.google.com/view/shinjiwatanabe) and Prof. [Chris Donahue](https://chrisdonahue.com/). I'm worked on <b>Controllable Music Generation</b>, <b>Audio Captioning</b>, and <b>Spoken Language Understanding</b>. I was a research scientist intern at the Audio AI Lab of [Adobe Research](https://research.adobe.com/) for Summer 2023 (mentor: Dr. [Nick Bryan](https://ccrma.stanford.edu/~njb/)), where we built the [Music ControlNet](https://musiccontrolnet.github.io/web/).
 
 Prior to joining CMU, I received my B.Sc. degree (in Computer Science) from [National Taiwan University](https://www.ntu.edu.tw/english). Also, I've been with two vibrant Taiwanese AI R&D teams: [Asus AICS Center](https://aics.asus.com/home/), and [Taiwan AI Labs](https://ailabs.tw/), working as a software dev intern at first, and later as a research engineer.
 
