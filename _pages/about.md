@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Class of '24, MLT @ School of CS, Carnegie Mellon University
+subtitle: M.Sc. ('24) in Language Technologies, School of CS, Carnegie Mellon University
 
 profile:
   align: right
