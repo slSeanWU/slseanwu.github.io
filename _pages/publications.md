@@ -21,13 +21,13 @@ nav_order: 1
 {% endfor %}
 </div>
 
-<div class="publications">
+<!-- <div class="publications">
 <h2 class="publ-cat">Preprints</h2>
 {%- for y in page.years_preprint %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f preprints -q @*[year={{y}}]* %}
 {% endfor %}
-</div>
+</div> -->
 
 <div class="publications">
 <h2 class="publ-cat">Peer-reviewed Journal & Conference Papers</h2>
