@@ -1,4 +1,8 @@
 source 'https://rubygems.org'
+
+gem 'bundler', '>= 2.3.0'
+gem 'uri', '~> 0.12.1'
+
 group :jekyll_plugins do
     gem 'jekyll'
     gem 'jekyll-archives'
