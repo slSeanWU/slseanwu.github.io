@@ -3,9 +3,9 @@ layout: page
 permalink: /publications/
 title: Publications
 description: <b>*</b> denotes equal contribution
-years_preprint: [2023]
+years_preprint: []
 years_theses: [2021]
-years: [2024, 2023, 2022, 2021, 2020]
+years: [2025, 2024, 2023, 2022, 2021, 2020]
 cv_pdf: CV_Shih-Lun_Wu_Sep25.pdf
 nav: true
 nav_order: 1

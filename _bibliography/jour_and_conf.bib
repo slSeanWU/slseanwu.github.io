@@ -1,3 +1,18 @@
+@inproceedings{tsai2025musecontrollite,
+  abbr={ICML},
+  field={Music},
+  field_badge_class={badge_music},
+  abstract={We propose MuseControlLite, a lightweight mechanism designed to fine-tune text-to-music generation models for precise conditioning using various time-varying musical attributes and reference audio signals. The key finding is that positional embeddings, which have been seldom used by text-to-music generation models in the conditioner for text conditions, are critical when the condition of interest is a function of time. Using melody control as an example, our experiments show that simply adding rotary positional embeddings to the decoupled cross-attention layers increases control accuracy from 56.6% to 61.1%, while requiring 6.75 times fewer trainable parameters than state-of-the-art fine-tuning mechanisms, using the same pre-trained diffusion Transformer model of Stable Audio Open. We evaluate various forms of musical attribute control, audio inpainting, and audio outpainting, demonstrating improved controllability over MusicGen-Large and Stable Audio Open ControlNet at a significantly lower fine-tuning cost, with only 85M trainble parameters.},
+  title={Muse{C}ontrol{L}ite: Multifunctional Music Generation with Lightweight Conditioners},
+  author={Tsai, Fang-Duo and Wu, Shih-Lun and Lee, Weijaw and Yang, Sheng-Ping and Chen, Bo-Rui and Cheng, Hao-Chung and Yang, Yi-Hsuan},
+  booktitle={International Conference on Machine Learning},
+  year={2025},
+  pdf={https://arxiv.org/abs/2506.18729},
+  website={https://musecontrollite.github.io/web/},
+  code={https://github.com/fundwotsai2001/MuseControlLite}
+}
+
+
 @inproceedings{tsai2024apadapter,
   abbr={ISMIR},
   field={Music},
