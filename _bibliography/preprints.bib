@@ -1,1 +1,26 @@
+@article{wu2025stemphonic,
+  abbr={Preprint},
+  field={Music},
+  field_badge_class={badge_music},
+  abstract={Music stem generation, the task of producing musically-synchronized and isolated instrument audio clips, offers the potential of greater user control and better alignment with musician workflows compared to conventional text-to-music models. Existing stem generation approaches, however, either rely on fixed architectures that output a predefined set of stems, or generate only one stem at a time that results in a slow sequential process to compose a full mix. We propose Stemphonic, a diffusion-/flow-based framework that can generate a variable number of synchronized stems in one inference pass. During training, we treat each stem as a batch element, group synchronized stems in a batch, and apply a shared noise latent to each group. At inference-time, we use a shared initial noise latent and stem-specific text inputs to generate synchronized multi-stem outputs in one pass. We further expand our approach to enable one-pass conditional multi-stem generation and stem-wise activity controls to empower users to iteratively generate and orchestrate the temporal layering of a mix. We benchmark our results on multiple open-source stem evaluation sets and show that our proposals lead to higher-quality outputs while accelerating the full mix generation process by 25 to 50%.},
+  title={Stemphonic: All-at-once flexible multi-stem music generation},
+  author={Wu, Shih-Lun and Zhu, Ge and Caceres, Juan-Pablo and Huang, Cheng-Zhi Anna and Bryan, Nicholas J.},
+  journal={Under Review},
+  year={2025},
+  pdf={https://drive.google.com/file/d/1gipln45hX-2AmMzT-E7HNK-VpFdohD8T/view?usp=sharing},
+  website={https://stemphonic-demo.vercel.app/},
+}
+
+@article{wu2025midllm,
+  abbr={Preprint},
+  field={Music},
+  field_badge_class={badge_music},
+  abstract={We present MIDI-LLM, an LLM for generating multitrack MIDI music from free-form text prompts. Our approach expands a text LLM's vocabulary to include MIDI tokens, and uses a two-stage training recipe to endow text-to-MIDI abilities. By preserving the LLM’s weight signature, we can directly leverage the vLLM library for accelerated inference. Experiments show that MIDI-LLM achieves higher quality, better text control, and faster inference compared to the recent Text2midi model.},
+  title={{MIDI-LLM}: Adapting large language models for text-to-{MIDI} music generation},
+  author={Wu, Shih-Lun and Kim, Yoon and Huang, Cheng-Zhi Anna},
+  journal={Under Review},
+  year={2025},
+  pdf={https://drive.google.com/file/d/1U-d5RS3K18gy-_ieNFJyOWT46vvAFz7I/view?usp=sharing},
+  website={https://midi-llm-demo.vercel.app/},
+}
 

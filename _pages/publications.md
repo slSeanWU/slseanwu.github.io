@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: <b>*</b> denotes equal contribution
-years_preprint: []
+years_preprint: [2025]
 years_theses: [2021]
 years: [2025, 2024, 2023, 2022, 2021, 2020]
 cv_pdf: CV_Shih-Lun_Wu_Sep25.pdf
@@ -21,13 +21,13 @@ nav_order: 1
 {% endfor %}
 </div>
 
-<!-- <div class="publications">
+<div class="publications">
 <h2 class="publ-cat">Preprints</h2>
 {%- for y in page.years_preprint %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f preprints -q @*[year={{y}}]* %}
 {% endfor %}
-</div> -->
+</div>
 
 <div class="publications">
 <h2 class="publ-cat">Peer-reviewed Journal & Conference Papers</h2>
