@@ -9,7 +9,7 @@ profile:
   image: shihlun.JPG
   image_cicular: false # crops the image to make it circular
 
-cv_pdf: CV_Shih-Lun_Wu_Oct25.pdf
+cv_pdf: CV_Shih-Lun_Wu_Nov25.pdf
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
@@ -21,4 +21,4 @@ I graduated in 2024 with a [M.Sc. in Language Technologies](https://lti.cs.cmu.e
 
 Before CMU, I received my B.Sc. degree (in Computer Science) from [National Taiwan University](https://www.ntu.edu.tw/english). Also, I've been with two vibrant Taiwanese AI R&D teams: [Asus AICS Center](https://aics.asus.com/home/), and [Taiwan AI Labs](https://ailabs.tw/), working as a software dev intern first, and later as a research engineer.
 
-My undergraduate research focused on <b>symbolic-domain music generation</b>, where I was advised by the wonderful Dr. [Yi-Hsuan Yang](https://affige.github.io/). Feel free to listen to our model's creative works [here](https://slseanwu.github.io/site-musemorphose/), or even [compose](https://github.com/slSeanWU/jazz_transformer) with it! I've also worked with Prof. [Chung-Wei Lin](https://www.csie.ntu.edu.tw/~cwlin/) and Prof. [Eunsuk Kang](https://eskang.github.io/) on <b>formal verification under weakly-hard constraints</b>.
+My undergraduate research focused on <b>symbolic-domain music generation</b>, where I was advised by the wonderful Dr. [Yi-Hsuan Yang](https://affige.github.io/). Feel free to listen to creative works from our MuseMorphose model [here](https://slseanwu.github.io/site-musemorphose/)! I've also worked with Prof. [Chung-Wei Lin](https://www.csie.ntu.edu.tw/~cwlin/) and Prof. [Eunsuk Kang](https://eskang.github.io/) on <b>formal verification under weakly-hard constraints</b>.
