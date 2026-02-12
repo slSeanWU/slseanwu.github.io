@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 display_categories:
 horizontal: false
-cv_pdf: CV_Shih-Lun_Wu_Nov25.pdf
+cv_pdf: CV_Shih-Lun_Wu_Feb26.pdf
 ---
 
 <!-- pages/projects.md -->
