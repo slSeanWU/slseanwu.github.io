@@ -1,3 +1,17 @@
+@inproceedings{wu2026stemphonic,
+  abbr={ICASSP},
+  field={Music},
+  field_badge_class={badge_music},
+  abstract={Music stem generation, the task of producing musically-synchronized and isolated instrument audio clips, offers the potential of greater user control and better alignment with musician workflows compared to conventional text-to-music models. Existing stem generation approaches, however, either rely on fixed architectures that output a predefined set of stems in parallel, or generate only one stem at a time, resulting in slow inference despite flexibility in stem combination. We propose Stemphonic, a diffusion-/flow-based framework that overcomes this trade-off and generates a variable set of synchronized stems in one inference pass. During training, we treat each stem as a batch element, group synchronized stems in a batch, and apply a shared noise latent to each group. At inference-time, we use a shared initial noise latent and stem-specific text inputs to generate synchronized multi-stem outputs in one pass. We further expand our approach to enable one-pass conditional multi-stem generation and stem-wise activity controls to empower users to iteratively generate and orchestrate the temporal layering of a mix. We benchmark our results on multiple open-source stem evaluation sets and show that Stemphonic produces higher-quality outputs while accelerating the full mix generation process by 25 to 50%.},
+  title={Stemphonic: All-at-once flexible multi-stem music generation},
+  author={Wu, Shih-Lun and Zhu, Ge and Caceres, Juan-Pablo and Huang, Cheng-Zhi Anna and Bryan, Nicholas J.},
+  booktitle={International Conference on Acoustics, Speech, & Signal Processing},
+  year={2026},
+  pdf={https://arxiv.org/pdf/2602.09891},
+  website={https://stemphonic-demo.vercel.app/},
+  tldr={https://x.com/slseanwu/status/2021424227300278356?s=20},
+}
+
 @inproceedings{tsai2025musecontrollite,
   abbr={ICML},
   field={Music},
